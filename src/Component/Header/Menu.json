@@ -1,0 +1,149 @@
+[
+    {
+        "label": "Home",
+        "link": "/",
+        "textColor": "text-red",
+        "isDropdown": true,
+        "dropdownmenu": [
+            {
+                "label": "Home 1",
+                "link": "/",
+                "textColor": "text-red"
+            },
+            {
+                "label": "Home 2",
+                "link": "/",
+                "textColor": "text-red"
+            }
+        ]
+    },
+    {
+        "label": "About",
+        "link": "/about",
+        "textColor": "text-yellow",
+        "isDropdown": true,
+        "dropdownmenu": [
+            {
+                "label": "About 1",
+                "link": "/",
+                "textColor": "text-yellow"
+            },
+            {
+                "label": "About 2",
+                "link": "/",
+                "textColor": "text-yellow"
+            }
+        ]
+    },
+    {
+        "label": "Classes",
+        "link": "/classes",
+        "textColor": "text-orange",
+        "isDropdown": true,
+        "dropdownmenu": [
+            {
+                "label": "Classes ",
+                "link": "/",
+                "textColor": "text-orange"
+            },
+            {
+                "label": "Classes Details",
+                "link": "/",
+                "textColor": "text-orange"
+            }
+        ]
+    },
+    {
+        "label": "Teachers",
+        "link": "/teachers",
+        "textColor": "text-purple",
+        "isDropdown": true,
+        "dropdownmenu": [
+            {
+                "label": "Teachers ",
+                "link": "/",
+                "textColor": "text-purple"
+            },
+            {
+                "label": "Teachers Details",
+                "link": "/",
+                "textColor": "text-purple"
+            }
+        ]
+    },
+    {
+        "label": "Pages",
+        "link": "/pages",
+        "textColor": "text-lightblue",
+        "isDropdown": true,
+        "dropdownmenu": [
+            {
+                "label": "Gallery",
+                "link": "/",
+                "textColor": "text-lightblue"
+            },
+            {
+                "label": "Gallery 2",
+                "link": "/",
+                "textColor": "text-lightblue"
+            },
+            {
+                "label": "Event",
+                "link": "/",
+                "textColor": "text-lightblue"
+            },
+            {
+                "label": "Event Details",
+                "link": "/",
+                "textColor": "text-lightblue"
+            }
+        ]
+    },
+    {
+        "label": "Blog",
+        "link": "/blog",
+        "textColor": "text-pink",
+        "isDropdown": true,
+        "dropdownmenu": [
+            {
+                "label": "Blog Page",
+                "link": "/",
+                "textColor": "text-pink"
+            },
+            {
+                "label": "Blog Single",
+                "link": "/",
+                "textColor": "text-pink"
+            }
+        ]
+    },
+    {
+        "label": "Shop",
+        "link": "/shop",
+        "textColor": "text-green",
+        "isDropdown": true,
+        "dropdownmenu": [
+            {
+                "label": "Product Page",
+                "link": "/",
+                "textColor": "text-green"
+            },
+            {
+                "label": "Product Detail",
+                "link": "/",
+                "textColor": "text-green"
+            },
+            {
+                "label": "Shop Cart",
+                "link": "/",
+                "textColor": "text-green"
+            }
+        ]
+    },
+    {
+        "label": "Contact",
+        "link": "/contact",
+        "textColor": "text-brown",
+        "isDropdown": false
+    }
+]

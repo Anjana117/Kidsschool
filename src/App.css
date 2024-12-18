@@ -1,0 +1,51 @@
+/* Top header section start */
+#Topheader {
+    padding: 11PX 0PX;
+}
+
+#Topheader .col-auto a {
+    color: white;
+    padding: 0 9px;
+
+}
+
+/* Top header section end */
+
+/*  header section start */
+header .navbar-nav .nav-link {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 30px 0px;
+}
+/*  header section end */
+/*  Footer section start */
+
+
+/*  Footer section end */
+/* ...........1200px............... */
+@media screen and (max-width:1200px) {
+
+    #Topheader {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    header .navbar-nav .nav-link {
+        padding: 15px 0px;
+    }
+
+    header .navbar-nav .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    header .navbar-nav .dropdown-menu .dropdown-item {
+        border-bottom: 1px solid rgb(247, 236, 236);
+    }
+
+    header .navbar-nav .dropdown-menu .dropdown-item:last-child {
+        border-bottom: none;
+    }
+}

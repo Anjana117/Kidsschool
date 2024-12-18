@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding :0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+
+
+
+}
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #707070;
+  margin: 0;
+  padding: 0;
+  font-family: 'Bubblegum Sans', cursive;
+}
+p{
+  font-size: 16px;
+  color: #707070;
+  line-height: 24px;
+}
+.text-red{
+color: #E84B3A !important;
+}
+.text-yellow{
+  color:#FFC81F !important ;
+}
+.text-orange{
+  color:#FC800D  !important;
+}
+.text-purple{
+  color:#92278F !important ;
+}
+.text-lightblue{
+  color: #14B7F1 !important;
+}
+.text-pink{
+  color: #EE257C !important;
+}
+.text-green{
+  color:#8DC63F  !important;
+}
+.text-brown{
+  color: #A40202 !important;
+}
+.bg-red{
+  background-color: #E84B3A !important;
+  }
+  .bg-yellow{
+    background-color:#FFC81F !important ;
+  }
+  .bg-orange{
+    background-color:#FC800D !important ;
+  }
+  .bg-purple{
+    background-color:#92278F !important ;
+  }
+  .bg-lightblue{
+    background-color: #14B7F1 !important;
+  }
+  .bg-pink{
+    background-color: #EE257C !important;
+  }
+  .bg-green{
+    background-color:#8DC63F !important ;
+  } 
+  .bg-brown{
+    background-color: #A40202 !important;
+  }
