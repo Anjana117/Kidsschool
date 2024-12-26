@@ -1,0 +1,511 @@
+/* Home banner section start */
+.Homebanner {
+    position: relative;
+}
+
+.Kids-academy {
+    position: relative;
+}
+
+.Teachers-meet {
+    position: relative;
+}
+
+.Partners {
+    position: relative;
+}
+
+.Newsletter {
+    position: relative;
+}
+
+.button {
+    padding: 14px 30px;
+    background-color: purple;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.section-start::before {
+    content: '';
+    background: url(../../../public/image/section_top.png)repeat-x;
+    height: 7px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+}
+
+.section-start::after {
+    content: '';
+    background: url(../../../public/image/section_bottom.png)repeat-x;
+    height: 7px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+}
+
+.section-top::before {
+    content: '';
+    background: url(../../../public/image/section_top.png)repeat-x;
+    height: 7px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+}
+
+.Homebanner .carousel-caption {
+    top: 35%;
+    left: 10%;
+    text-align: start;
+    width: 100%;
+    transition: all 1;
+}
+
+.Homebanner .carousel img {
+    filter: brightness(70%);
+    height: 600px;
+}
+
+.Homebanner .carousel-caption a {
+    padding: 15px 30px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    border-radius: 5px;
+
+}
+
+.Homebanner .carousel-caption a:hover {
+    opacity: 0.8;
+}
+
+.Homebanner .carousel-slide .carousel-indicators[data-bs-target] {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.carousel-indicators[data-bs-target]:active {
+    background-color: yellow;
+}
+
+/* Home banner section end */
+
+/* Kids Academy  section start */
+
+.Kids-academy {
+    background: linear-gradient(rgba(43, 149, 194, 0.8), rgba(43, 149, 194, 0.8)), url(../../../public/image/about-bg.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+.Kids-academy .container .row {
+    padding: 100px 10px;
+
+}
+
+.Kids-academy .container .row .col-lg-6 p {
+    line-height: 30px;
+    font-size: 18px;
+    word-wrap: break-word;
+}
+
+.Kids-academy .container .row .col-lg-6 a {
+    padding: 15px 30px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.Kids-academy .container .row .col-lg-6 a:hover {
+    opacity: 0.8;
+}
+
+/*Kids Academy  section start */
+
+
+/*Teachers Meet section start */
+.Teachers-meet {
+
+    background: linear-gradient(rgba(108, 187, 75, 0.9), rgba(108, 187, 75, 0.9)), url(../../../public/image/teacher-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    color: white;
+}
+
+.Teachers-meet .container .col-lg-8 h2 {
+    padding-top: 120px;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.Teachers-meet .container .col-lg-8 p {
+    text-align: center;
+    word-wrap: wrap;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+/*Teachers Meet section start */
+
+/*Partners section start */
+.Partners {
+    background: linear-gradient(rgb(253, 153, 61, 0.9), rgb(253, 153, 61, 0.9)), url(../../../public/image/about-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.Partners .col-lg-6 h2 {
+    padding-top: 100px;
+    padding-bottom: 25px;
+    text-align: center;
+
+}
+
+.Partners .col-lg-6 p {
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.Partners .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+/*Partners section start */
+
+
+/*Newsletter section start */
+.Newsletter .row {
+
+    padding: 60px 0px;
+
+}
+
+.Newsletter .row .col-lg-7 .search {
+    padding: 16px 20px;
+    background-color: transparent;
+    border: 2px solid rgb(214, 212, 212);
+    width: 58%;
+    color: white;
+    margin-right: 10px;
+    color: white;
+    outline: none;
+
+}
+
+.Newsletter .row .col-lg-7 .btn {
+    background-color: white;
+    border-radius: 5px;
+    padding: 16px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/*Newsletter section end */
+
+/*School Gallery section start */
+.Schoolgallery .row .col-lg-6 {
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Schoolgallery .row .col-lg-6 h2 {
+    padding-top: 120px;
+    padding-bottom: 15px;
+
+}
+
+.Schoolgallery .row .col-lg-6 p {
+    padding-bottom: 15px;
+}
+
+.Schoolgallery .row .col ul {
+    text-align: center;
+}
+
+
+.Schoolgallery .row .col ul li {
+    display: inline;
+    text-align: center;
+    list-style: none;
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: 50px;
+
+}
+
+.Schoolgallery .row .col ul .lst {
+
+    border-bottom: 1px solid rgb(246, 241, 241);
+
+}
+
+/*School Gallery section end */
+/*Event section section start */
+.Event .container .row .Event-item-wide .Event-image {
+
+    width: 50%;
+    position: relative;
+    padding-left: 0px;
+}
+
+.Event .container .row .Event-item .Event-image {
+    position: relative;
+    padding-left: 0px;
+
+}
+
+.Event .container .row .Event-image .date {
+
+    height: 80px;
+    width: 80px;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+}
+
+.Event .container .row .Event-item-wide {
+    width: 66.67%;
+    float: left;
+}
+
+
+.Event .container .row .Event-item {
+    width: 33.33%;
+    float: right;
+}
+
+/*Event section section end */
+
+/*Popularclass section section start */
+.Homeclass .section-header p {
+    line-height: 30px;
+}
+
+.Homeclass .class-item ul {
+    padding: 0;
+}
+
+.Homeclass .class-item {
+    background-color: #FAFAFA;
+    transition: all 0.5s;
+}
+
+.Homeclass .class-item:hover {
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px gainsboro;
+}
+
+.Homeclass .class-item ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    width: 33.333%;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.Homeclass .class-item ul li span {
+    display: block;
+}
+
+.Homeclass .class-item .class-content {
+    padding: 20px;
+}
+
+.Homeclass .class-item .class-address {
+    padding: 8px 20px;
+}
+
+/*Popularclass section section end */
+/*Facility section section start */
+
+
+
+
+.Facility .col-lg-3 .Facility-item .rotateprop {
+
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+
+.Facility .col-lg-3 .Facility-item div :hover {
+    transition: all 1s;
+    transform: rotate(360deg);
+}
+
+/*Facility section section end */
+
+
+@media screen and (min-width:992px) {
+    .Homebanner .carousel .carousel-caption {
+        width: 40%;
+    }
+
+    .Event .container .row .Event-item-wide {
+        display: flex;
+        border: 1px solid rgb(238, 231, 231);
+    }
+
+    .Event .container .row .Event-item-wide p {
+        width: 70%;
+        word-wrap: break-word;
+    }
+
+    .Facility .col-lg-3 {
+        margin-top: 100px;
+    }
+
+    .Facility .col-lg-3 .Facility-item p {
+        padding-bottom: 100px;
+    }
+}
+
+/* --------------Homeparents--------------- */
+.Homeparents .parents-item {
+    position: relative;
+}
+
+.Homeparents .parents-item::before {
+    font-family: 'Font Awesome 6 Free';
+    content:'\f10d'; 
+    font-weight: 700;
+    /* content: '"'; */
+    position: absolute;
+    top: -5px;
+    left: -2px;
+    font-size: 35px;
+    background: #fff;
+    color: #ffc000;
+    line-height: 24px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+}
+
+.Homeparents .parents-item::after {
+    font-family: 'Font Awesome 6 Free';
+    content:'\f10e';
+    font-weight: 700;
+    /* content: '"'; */
+    position: absolute;
+    bottom: -5px;
+    right: -2px;
+    font-size: 32px;
+    background: #fff;
+    color: #ffc000;
+    line-height: 24px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+}
+
+.Homeparents .row .col-lg-4:nth-child(2).parents-item::before{
+    color: #E84B3A;
+}
+
+.Homeparents .row .col-lg-4:nth-child(2).parents-item::after{
+    color: #E84B3A;
+}
+
+.Homeparents .row .col-lg-4:nth-child(2).parents-item::before{
+    color: #FC7F0C;
+}
+
+.Homeparents .row .col-lg-4:nth-child(2).parents-item::after{
+    color: #FC7F0C;
+}
+
+@media screen and (max-width:992px) {
+    .Kids-academy .container .row .col-lg-6 h2 {
+        text-align: center;
+    }
+
+    .Kids-academy .container .row .col-lg-6 p {
+        text-align: center;
+    }
+
+    .Kids-academy .container .row .col-lg-6 a {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .Event .container .row .Event-item-wide .Event-image .imagelast {
+        float: right;
+    }
+   
+}
+
+@media screen and (max-width:768px) {
+    .Homebanner .carousel .carousel-caption {
+        width: 80%;
+    }
+    .Facility .col-lg-3{
+        margin-top: 50px;
+    }
+    .Facility .col-lg-3 .Facility-item p{
+    padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .Homebanner .carousel .carousel-caption {
+        width: 90%;
+
+    }
+
+    .Homebanner .carousel .carousel-caption h2 {
+        font-size: 40px;
+    }
+
+    .Homebanner .carousel .carousel-caption h3 {
+        font-size: 25px;
+    }
+
+    .Newsletter .row .col-lg-7 .search {
+        width: 60%;
+    }
+
+    .Newsletter .row .col-lg-7 .btn {
+        padding: 16px 20px;
+    }
+    .Schoolgallery .row .col ul li {
+        font-size: 14px;
+    }
+}

@@ -4,6 +4,7 @@ import Toheader from './Component/Topheader/Toheader'
 import Header from './Component/Header/Header'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Footer from './Component/Footer/Footer'
+import Home from './Component/Home/Home'
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
     <Toheader />
     <Header />
     <Routes>
-      <Route path="/" element={<h2>Home</h2>} />
+      <Route path="/" element={<Home />} ></Route>
       <Route path='/about'  element={<h1>About_component</h1>}/>
       <Route path='/classes' element={<h1>classes_component</h1>}/>
       <Route path='/teacher' element={<h1>Service_component</h1>}/>

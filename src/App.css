@@ -20,9 +20,104 @@ header .navbar-nav .nav-link {
 }
 /*  header section end */
 /*  Footer section start */
+footer{
+    background: url(../public/image/footer-bg.jpg)no-repeat scroll;
+    background-position: center;
+    background-size: cover;
+}
+footer .footer-title{
+    margin-bottom: 30px;
+}
+footer .footer-title h2{
+    margin-bottom: 30px;
+}
+footer .container .col-lg-3 ul li{
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+footer .container .col-lg-3 .social-icon span{
+height: 36px;
+width: 36px;
+text-align: center;
+border: 1px solid rgb(240, 231, 231);
+border-radius: 2px;
+display: inline-block;
+line-height: 36px;
+margin-right:9px;
+font-size: 14px;
+}
 
+footer .container .col-lg-3 .footer-img li {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+   display: flex;
+   gap: 10px;
+   list-style: none;
+   text-decoration: none;
+    
+   
+}
+footer .container .col-lg-3 .footer-img li:last-child{
+    border-bottom:none;
+}
+footer .container .col-lg-3 .footer-img li div p a{
+text-decoration: none;
 
+}
+footer .container .col-lg-3 .footer-img li img{
+    margin: 2px 3px;
+    width: 120px;
+    height: 80px;
+    
+}
+footer .container .col-lg-3 .footer-icon li {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+   display: flex;
+   gap: 10px;
+   list-style: none;
+   text-decoration: none;
+   align-items: start;
+}
+footer .container .col-lg-3 .footer-icon li:last-child{
+    border-bottom:none 
+}
+footer .container .col-lg-3 .photos li{
+   padding: 5px;
+   width: 33.3%;
+    float: left;
+}
+footer .container .col-lg-3 .photos li img{
+    width: 100%;
+    height: 100%;
+}
+.footer-bottom{
+    padding:40px 0px;
+    background-color: rgb(252, 252, 252);
+    border-top: 1px solid rgb(238, 231, 231);
+}
+.footer-bottom .social-bottom-icon {
+    float: right;
+}
+.footer-bottom .social-bottom-icon li{
+    list-style: none;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.footer-bottom .social-bottom-icon li a{
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    line-height: 2.3;
+}
 /*  Footer section end */
+
 /* ...........1200px............... */
 @media screen and (max-width:1200px) {
 
