@@ -24,13 +24,13 @@
         "isDropdown": true,
         "dropdownmenu": [
             {
-                "label": "About 1",
-                "link": "/",
+                "label": "About",
+                "link": "/about",
                 "textColor": "text-yellow"
             },
             {
                 "label": "About 2",
-                "link": "/",
+                "link": "/about",
                 "textColor": "text-yellow"
             }
         ]
@@ -43,30 +43,30 @@
         "dropdownmenu": [
             {
                 "label": "Classes ",
-                "link": "/",
+                "link": "/classes",
                 "textColor": "text-orange"
             },
             {
                 "label": "Classes Details",
-                "link": "/",
+                "link": "/classes",
                 "textColor": "text-orange"
             }
         ]
     },
     {
         "label": "Teachers",
-        "link": "/teachers",
+        "link": "/teacher",
         "textColor": "text-purple",
         "isDropdown": true,
         "dropdownmenu": [
             {
                 "label": "Teachers ",
-                "link": "/",
+                "link": "/teacher",
                 "textColor": "text-purple"
             },
             {
                 "label": "Teachers Details",
-                "link": "/",
+                "link": "/teacher",
                 "textColor": "text-purple"
             }
         ]
@@ -79,22 +79,22 @@
         "dropdownmenu": [
             {
                 "label": "Gallery",
-                "link": "/",
+                "link": "/gallery",
                 "textColor": "text-lightblue"
             },
             {
                 "label": "Gallery 2",
-                "link": "/",
+                "link": "/gallery",
                 "textColor": "text-lightblue"
             },
             {
                 "label": "Event",
-                "link": "/",
+                "link": "/gallery",
                 "textColor": "text-lightblue"
             },
             {
                 "label": "Event Details",
-                "link": "/",
+                "link": "/gallery",
                 "textColor": "text-lightblue"
             }
         ]
@@ -107,12 +107,12 @@
         "dropdownmenu": [
             {
                 "label": "Blog Page",
-                "link": "/",
+                "link": "/blog",
                 "textColor": "text-pink"
             },
             {
                 "label": "Blog Single",
-                "link": "/",
+                "link": "/blog",
                 "textColor": "text-pink"
             }
         ]
@@ -125,17 +125,17 @@
         "dropdownmenu": [
             {
                 "label": "Product Page",
-                "link": "/",
+                "link": "/shop",
                 "textColor": "text-green"
             },
             {
                 "label": "Product Detail",
-                "link": "/",
+                "link": "/shop",
                 "textColor": "text-green"
             },
             {
                 "label": "Shop Cart",
-                "link": "/",
+                "link": "/shop",
                 "textColor": "text-green"
             }
         ]

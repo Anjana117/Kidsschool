@@ -25,11 +25,6 @@ function Home() {
     <Partners />
     <Event />
     <Newsletter />
-    
-    
-   
-    
-    
     </>
    
   )

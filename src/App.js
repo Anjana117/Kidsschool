@@ -5,6 +5,14 @@ import Header from './Component/Header/Header'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Footer from './Component/Footer/Footer'
 import Home from './Component/Home/Home'
+import About from './Component/About/About'
+import Class from './Component/Class/Class'
+import Teachers from './Component/Teachers/Teachers'
+import Pages from './Component/Pages/Pages'
+import Blog from './Component/Blog/Blog'
+import Shop from './Component/Shop/Shop'
+import Contact from './Component/Contact/Contact'
+
 
 function App() {
   return (
@@ -16,13 +24,13 @@ function App() {
     <Header />
     <Routes>
       <Route path="/" element={<Home />} ></Route>
-      <Route path='/about'  element={<h1>About_component</h1>}/>
-      <Route path='/classes' element={<h1>classes_component</h1>}/>
-      <Route path='/teacher' element={<h1>Service_component</h1>}/>
-       <Route path='/page' element={<h1>Page_component</h1>}/>
-       <Route path='/blog' element={<h1>Blog_component</h1>}/>
-       <Route path='/shop' element={<h1>Shop_component</h1>}/>
-       <Route path='/contact' element={<h1>Contact_component</h1>}/>
+      <Route path='/about'  element={<About />}></Route>
+      <Route path='/classes' element={<Class />}/>
+      <Route path='/teacher' element={<Teachers />}/>
+       <Route path='/gallery' element={<Pages />}/>
+       <Route path='/blog' element={<Blog />}/>
+       <Route path='/shop' element={<Shop />}/>
+       <Route path='/contact' element={<Contact />}/>
        <Route path='*' element={<h1>404 Page Not Found</h1>}></Route>
     </Routes>
     <Footer />

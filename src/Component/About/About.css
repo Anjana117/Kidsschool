@@ -1,0 +1,13 @@
+
+
+@media screen and (max-width:992px) {
+    .Aboutkidsacademy .row .col-lg-4 .content{
+        text-align: center;
+    }
+
+    @media screen and (min-width:992px) {
+        .Aboutkidsacademy .row .col-lg-4 .content .right{
+            text-align: right;
+        }
+    }
+}

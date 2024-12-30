@@ -264,17 +264,82 @@
 
 /*School Gallery section end */
 /*Event section section start */
-.Event .container .row .Event-item-wide .Event-image {
+.Event .container .row .Event-item .wide {
+    width: 66.67%;
+    float: left;
+}
+.Event  .container .row   .Event-item   {
+    width: 33.33%;
+    float: right;
 
+}
+.Event  .container .row   .Event-item .wide .Event-image{
+    float: left;
     width: 50%;
+}
+.Event  .Event-item .Event-image{
     position: relative;
-    padding-left: 0px;
+}
+.Event  .Event-item .Event-image .date{
+    
+    height: 80px;
+    width: 80px;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+}
+.Event  .Event-item .wide .event-content{
+    width: 50%;
+}
+.Event  .Event-item .event-content{
+    border: 1px solid gray;
+    padding: 25px;
+}
+.Event  .Event-item{
+    width: 33.33%;
+    float: right;
+}
+.Event  .Event-item .Event-image{
+    position: relative;
+}
+.Event  .Event-item .event-content{
+    border: 1px solid gray;
+    padding: 25px;
+}
+.Event  .Event-item .wide .right .Event-image{
+    float: right;
+}
+.Event  .Event-item .event-content{
+    border: 1px solid gray;
+    padding: 25px;
 }
 
-.Event .container .row .Event-item .Event-image {
+    /* width: 50%;
+    position: relative;
+    padding-left: 0px;
+    float: left;
+}
+.Event .container .row .Event-item .wide .event-content{
+    width: 50%;
+}
+
+.Event .container .row .Event-items .Event-image {
     position: relative;
     padding-left: 0px;
 
+}
+
+.Event .container .row .Event-items  .wide .right .Event-image{
+
+    float: right;
+    width: 50%;
+}
+.Event .container .row .Event-items  .wide .right .event-content{
+    float: left;
 }
 
 .Event .container .row .Event-image .date {
@@ -290,16 +355,15 @@
     color: white;
 }
 
-.Event .container .row .Event-item-wide {
-    width: 66.67%;
-    float: left;
-}
+
 
 
 .Event .container .row .Event-item {
     width: 33.33%;
     float: right;
 }
+
+.Event .container .row .Event-item  */
 
 /*Event section section end */
 
@@ -377,12 +441,12 @@
         width: 40%;
     }
 
-    .Event .container .row .Event-item-wide {
+    .Event .container .row .Event-item .wide {
         display: flex;
         border: 1px solid rgb(238, 231, 231);
     }
 
-    .Event .container .row .Event-item-wide p {
+    .Event .container .row .Event-item .wide p {
         width: 70%;
         word-wrap: break-word;
     }
@@ -466,9 +530,7 @@
         margin-bottom: 10px;
     }
 
-    .Event .container .row .Event-item-wide .Event-image .imagelast {
-        float: right;
-    }
+  
    
 }
 
